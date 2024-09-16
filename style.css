@@ -1,0 +1,59 @@
+body {
+	background-color: lightblue;
+}
+
+img {
+	padding-left: 750px;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 2px 2px white;
+	font-family: "Copperplate", fantasy;
+	font-size: 60px;
+
+}
+
+h2 {
+	text-indent: 30px;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+}
+h3 {
+	text-indent: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+p {
+	text-indent: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+a {
+
+	text-decoration-style: dotted;
+	font-size: 20px;
+}
+
+a:hover {
+	background-color: lightcoral;
+}
+a:visited {
+	color: yellow;
+}
