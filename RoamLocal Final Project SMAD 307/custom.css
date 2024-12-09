@@ -1,0 +1,117 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+html, body {
+    height: 100%; /* Make both html and body elements take the full height of the viewport */
+    margin: 0;    /* Remove default margin */
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 24px;
+}
+
+li {
+    font-size: 18px; /* Change to your desired font size */
+}
+
+
+
+/* Now apply the beige background color to the entire page */
+.bg {
+    background-color: beige !important;
+}
+
+#about {
+    background-color: #ddd0bb !important;  /* Apply beige background to the about section */
+    color: darkgreen;                    /* Ensure text is readable (optional) */
+}
+
+#services {
+    background-color: #d6c7ae !important;  /* Apply beige background to the about section */
+    color: darkgreen;                    /* Ensure text is readable (optional) */
+}
+
+#challenges {
+    background-color: #ddd0bb !important;  /* Apply beige background to the about section */
+    color: darkgreen;                    /* Ensure text is readable (optional) */
+}
+
+#blog {
+    background-color: #d6c7ae !important;  /* Apply beige background to the about section */
+    color: darkgreen;                    /* Ensure text is readable (optional) */
+}
+
+#contact {
+    background-color: #ddd0bb !important;  /* Apply beige background to the about section */
+    color: darkgreen;                    /* Ensure text is readable (optional) */
+}
+
+
+/* If the about section or other sections have their own background colors, ensure they fill the page */
+section {
+    min-height: 100%;  /* Ensure sections fill the available height */
+}
+
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: darkgreen;
+}
+
+.im-fell-french-canon-regular {
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-french-canon-regular-italic {
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.nav-link { color: orange !important; }
+
+.nav-link:hover, .nav-link:focus {
+	color: purple;
+}
+
+footer { height: 350px;
+		 background-color: black;
+		 color: yellow; }
+
+h1.fw-bolder {
+    color: #2C6B3F; /* Dark Green color code */
+}
+
+p.lead {
+    color: #2C6B3F; /* Dark Green color code */
+}
+
+.bg-dark {
+	color: darkgreen !imporant;
+}
+
+.bg {
+	background-color: #d6c7ae !important;
+}
+
+.dark-green-text {
+    color: #2C6B3F; /* Dark Green color */
+}
+
+.dark-green-text u {
+    color: #2C6B3F; /* Dark Green for underlined text */
+}
+
+
+.bg-primary {
+	background-color: #8a8635 !important;
+}
+
+section.about {
+	color: beige !important;
+}

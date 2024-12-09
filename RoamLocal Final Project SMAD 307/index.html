@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Bootstrap-Final-Project" />
+        <meta name="author" content="Gray-Gilliam" />
+        <title>RoamLocal</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+  <!-- END LOADING BOOTSTRAP CSS -->
+
+      
+    <!-- Custom styles -->
+    <link href="custom.css" rel="stylesheet">
+
+    <style>
+        /* Limit the size of the carousel images */
+        #dreamscapeCarousel .carousel-item img {
+            max-width: 60%;  /* Adjust the percentage to control the image size */
+            margin: 0 auto;  /* Center the images horizontally */
+            height: auto;    /* Maintain aspect ratio */
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+    </head>
+    <body id="page" class="bg">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand rubik-dirt-regular" href="#page-top">RoamLocal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#challenges">Challenges</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="rubik-dirt-regular">Welcome to RoamLocal</h1>
+                <p class="rubik-dirt-regular">Adventure Starts Nearby!</p>
+                <a class="btn btn-lg btn-light rubik-dirt-regular" href="#about">Start scrolling!</a>
+            </div>
+        </header>
+
+        <!-- Image Carousel Section -->
+<section id="image-gallery">
+    <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+            <div class="col-lg-12">
+                <h2 class="text-center dark-green-text im-fell-french-canon-regular">Roam through our carousel of trails, hikes, and other activities to take on your next adventure in Harrisonburg!</h2>
+                
+
+                <!-- Bootstrap Carousel -->
+                <div id="dreamscapeCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+
+                    <!-- Carousel Items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Shenandoah-Trails.jpg" class="d-block w-100" alt="Trails">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Harrisonburg-1.jpg" class="d-block w-100" alt="Harrisonburg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Blue-Ridge.jpg" class="d-block w-100" alt="Blue-Ridge">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Hawksbill-Rocks.jpg" class="d-block w-100" alt="Hawksbill-Rocks">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="People-Hiking.jpg" class="d-block w-100" alt="People-Hiking">
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#dreamscapeCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- End of Bootstrap Carousel -->
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- About section - the ID attribute value here must match the corresponding href in navigation -->
+        <!-- For example - this section with id="about" must match the href="#about" in the navigation -->
+    <!--Modal-->
+
+    <!--About section-->    
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="rubik-dirt-regular">About RoamLocal</h2>
+                        <p class="dark-green-text im-fell-french-canon-regular"><strong>RoamLocal</strong> is designed to help users explore their local area and discover hidden gems, secret spots, and cool places that might not be on the typical tourist radar. Here are some features that <strong>RoamLocal</strong> offers to it's users:</p>
+                        <ul class="dark-green-text im-fell-french-canon-regular">
+                            <li><strong>RoamLocal</strong> features a <u>"Spotlight"</u> or <u>"Roam of the Week"</u> highlighting a unique, undiscovered local spot with detailed descriptions, photos, and insider tips.</li>
+                            <li><u>Personalized Itineraries</u>, this allows users to create custom itineraries by saving their favorite spots, plan future adventures, and share their routes with friends or fellow explorers.</li>
+                            <li>A central feature of <strong>RoamLocal</strong> is the <u>Interactive Map</u>, allowing users to filter locations by category, distance, or activity. It’s easy to find hidden spots based on where you are or what you feel like doing.</li>
+                            <li><strong>RoamLocal</strong> offers <u>Curated Guides</u> for different types of activities: hiking, biking, art tours, unique cafes, local markets, secret nature spots, scenic viewpoints, and more.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="rubik-dirt-regular">Services RoamLocal Offers</h2>
+                        <p class="dark-green-text im-fell-french-canon-regular">RoamLocal features many services that are tailored towards it's users needs based off their location, preferences, season based activites, and local events.</p>
+                        <ul class="dark-green-text im-fell-french-canon-regular">
+                            <li><u>Personalized Adventure Feeds</u>:
+                            Tailored suggestions for local activities, spots, and events based on user preferences, location, and past activities.</li>
+                            <li><u>Seasonal Guides</u>:
+                            Special recommendations for seasonal activities like winter hikes, summer beach spots, or autumn festivals.</li>
+                            <li>A central feature of <strong>RoamLocal</strong> <u>Featured Event Highlights</u>:
+                            A spotlight section dedicated to special, curated events. These could include niche festivals, unique local gatherings, or community-driven initiatives that are worth attending. Each featured event includes detailed information, insider tips, and recommendations to make the most out of the experience.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Adventure Challenges Page-->
+        <section class="bg-light" id="challenges">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="rubik-dirt-regular">Adventure Challenges</h2>
+                        <p class="dark-green-text im-fell-french-canon-regular">This page can engage users by offering fun and interactive challenges that encourage exploration and outdoor activities. The challenges allow users to compete against one another who, and offers prizes to whoever comes out on top.</p>
+                        <ul class="dark-green-text im-fell-french-canon-regular">
+                            <li><u>Hike Hidden Trails</u>:
+                            Explore the lesser-known trails in your area and discover hidden gems of nature! From serene forests to secret viewpoints, this challenge will guide you to trails that are off the beaten path.</li>
+                            <li><u>Sunset Spotter's Club</u>:
+                            Join the Sunset Spotter’s Club and visit the best local spots to watch the sunset. Whether it’s a mountain overlook, a lakeside bench, or a quiet park, share your sunset photos with the community. Submit your photos for points by sending them to our social media accounts.</li>
+                            <li><u>Coffee Crawl Adventure</u>:
+                            Explore the best coffee shops in your town and try a drink you’ve never had before. Whether it’s a seasonal special or a local brew, this challenge will get you caffeinated and connected with your community.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Blog page-->
+        <section class="bg-light" id="blog">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="rubik-dirt-regular">Blog Page</h2>
+                        <p class="dark-green-text im-fell-french-canon-regular">A blog or storytelling section where locals (and visitors) can share their personal experiences, adventures, or hidden gems discovered around the area. This page could serve as a community hub for storytelling, travel diaries, or tips from real explorers, offering fresh perspectives and insights.</p>
+                        <ul class="dark-green-text im-fell-french-canon-regular">
+                            <li><u>Featured Stories</u>:
+                            Highlight selected stories from users or guest bloggers (e.g., a local’s hidden hiking spot, an adventure through the best local coffee shops, or a family's weekend outing). The featured stories allow new users to find hiking spots, coffee shops and other places that they have never been to.</li>
+                            <li><u>Exploration Tips</u>:
+                            Local travel tips or guides written by users about navigating the area (e.g., “Best Hidden Spots in Harrisonburg” or “5 Scenic Drives You Can’t Miss”). This feature also allows users to communicate with other users about possible hazards, or what is the best time to go to a certain spot.</li>
+                            <li><u>User Submissions</u>:
+                            Allow users to submit their own stories with a submission form, so it becomes a community-driven feature. Allow readers to comment on stories, share their own experiences, and engage with other explorers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="rubik-dirt-regular">Contact us</h2>
+                            <p class="dark-green-text im-fell-french-canon-regular">We value your feedback, questions, and inquiries! Whether you're looking for more information about RoamLocal, need support with our website. Feel free to reach out to us through the contact options below, and our team will get back to you as soon as possible. We look forward to hearing from you and assisting you in any way we can.</p>
+                             <ul class="dark-green-text im-fell-french-canon-regular">
+                                <li><strong>General Inquiries:</strong> info@roamlocal.com | +1 (555) 123-4567</li>
+                                <li><strong>Customer Support:</strong> support@roamlocal.com | +1 (555) 234-5678</li>
+                                <li><strong>Press & Media Inquiries:</strong> media@roamlocal.com | +1 (555) 345-6789</li>
+                                <li><strong>Business Partnerships:</strong> partnerships@roamlocal.com | +1 (555) 567-8901</li>
+                                <li><strong>Technical Support:</strong> techsupport@roamlocal.com | +1 (555) 678-9012</li>
+                                <li><strong>Mailing Address:</strong> 123 Adventure St., Suite 456, Harrisonburg, VA 22801, USA</li>
+                                <li><strong>Feedback & Suggestions:</strong> feedback@roamlocal.com</li>
+                            </ul>
+                    <h3 class="rubik-dirt-regular">Follow Us on Social Media:</h3>
+                            <ul class="dark-green-text im-fell-french-canon-regular">
+                                <li><a href="https://www.facebook.com/RoamLocal">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/ RoamLocal">Instagram</a></li>
+                                <li><a href="https://twitter.com/RoamLocalApp">Twitter</a></li>
+                            
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; RoamLocal 2024</p></div>
+        </footer>
+
+
+
+
+
+        <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Core theme JS - DO NOT DELETE -->
+        <script src="js/scripts.js"></script>
+        <!-- END LOADING JAVASCRIPT -->
+    </body>
+</html>
